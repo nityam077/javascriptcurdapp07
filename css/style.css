@@ -1,0 +1,111 @@
+* { 
+    box-sizing: border-box; 
+} 
+
+body { 
+    margin: 0; 
+} 
+
+h1, 
+h2 { 
+    margin: 0; 
+    background-color: grey; 
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px;
+} 
+
+header h1 { 
+    background-color: green; 
+    color: white; 
+    text-align: center; 
+}
+.main-add h2 { 
+    margin: 10px 0px; 
+} 
+
+.main-edit h2 { 
+    margin: 10px 0px; 
+} 
+
+.student-table { 
+    margin: 10px 0px; 
+} 
+
+header h1{ 
+    background-color: black;
+} 
+
+header h2 { 
+    text-align: center; 
+    color: white; 
+    padding: 20px; 
+    border-bottom: 5px solid black; 
+} 
+
+label { 
+    display: block; 
+    color: white 
+} 
+
+.addform { 
+    background-color: grey; 
+    padding: 10px; 
+    max-width: 500px; 
+    box-shadow: 10px 10px 20px; 
+    text-align: center; 
+    border-radius: 10px;
+
+} 
+
+.addinputs { 
+    margin: 10px 0px; 
+    width: 100%; 
+} 
+
+.inputs { 
+    padding: 10px; 
+    width: 100%; 
+} 
+
+input[type='submit'] { 
+    width: 100%; 
+    border: 0; 
+    padding: 10px; 
+    background-color: black; 
+    color: white; 
+    font-size: 16px; 
+    font-weight: bold;
+    border-radius: 10px; 
+} 
+
+input[type='submit']:hover { 
+    background-color: blueviolet; 
+    color: white;
+} 
+
+.tex-area { 
+    resize: none; 
+} 
+
+.text-area:focus { 
+    border: 0; 
+    outline: 0; 
+} 
+
+.addinput label { 
+    margin: 5px 0px; 
+} 
+
+.mainback { 
+    background-color: gray; 
+    padding: 20px; 
+} 
+
+.application-form { 
+    text-align: center; 
+}
+main{
+    display: flex;
+    justify-content: space-around;
+}
